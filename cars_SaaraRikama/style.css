@@ -10,7 +10,6 @@ body {
     color: #333;
     background-color: rgb(0, 73, 89);
     display: flex;
-   
 }
   
 .page-wrap {
@@ -94,19 +93,19 @@ select {
 
 button {
     font-family: inherit;
-    background-color: #0c6353;
-    color: white;
+    background-color: #1dbcd8;
     padding: 0.7rem 1.8rem;
     border-radius: 5px;
     border: none;
     margin: 2rem 0 0 0;
     text-transform: capitalize;
+    font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
   
 button:hover {
-    background-color: #ec9a00;
+    background-color: #00c9a4;
 }
   
 .search-container {
@@ -190,7 +189,7 @@ th {
   
 th {
     font-weight: bold;
-    background-color:  #22cbe8;
+    background-color: #ffc55a;
     text-transform: uppercase;
     text-align: center;
 }
@@ -200,7 +199,7 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: #22cae82a;
+    background-color: #ffc55a52;
 }
 
 button.delete {
@@ -216,7 +215,7 @@ button.delete {
 }
   
 button.delete:hover {
-    color: #1dbcd8;
+    color: #00c9a4;
 }
   
 footer {
@@ -240,13 +239,13 @@ footer {
 }
   
 #message.success {
-    background-color: #3aa43d;
+    background-color: #026452;
     color: white;
     visibility: visible;
 }
   
 #message.error {
-    background-color: #e04f45;
+    background-color: #af180d;
     color: white;
     visibility: visible;
 }
